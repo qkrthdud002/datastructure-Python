@@ -1,0 +1,109 @@
+# print("park so young")
+
+# print("Hello")  # 큰 따옴표
+# print('Hello')  # 작은 따옴표
+
+# print('''안녕하세요. 저는 박소영입니다. 만나서 반갑습니다.''')
+# 실행 단축키 shift + f10
+# 소스코드 바뀔 때 단축키 alt + shift + f10
+
+# print(2**200) #2의 100승
+# print(2**5) #2위 5승 : 32
+# #실행 단축키 shift + f10
+# #소스코드 바뀔 때 단축키 alt + shift + f10
+# #주석은 #으로 한다. ctrl + /
+# print(2**1000)
+
+# 윈도우 창을 하나 만들어보기
+# from tkinter import *
+#
+# w = Tk()
+# w.title('PARK SO YOUNG')
+# w.geometry('400x200')  # 소문자 X 사용, 창의 크기
+# w.mainloop()
+
+# 현재 파이썬 파일 실행방법 2가지
+# 1. ctrl + shift + f10 현재 파일 바로 실행 방법
+# 2. alt + shift + f10 으로 현재 파일 선택하기
+# 라인 정렬 : ctrl + alt + L
+
+# print(1) 주석 다는 단축키 ctrl + /
+
+# print('1:', 10 > 5)  # True
+# print('2:', 10 < 3)  # False
+# print('3:', 10 > 5 or 10 < 3)  # True   ||, Ehsms
+# print('4:', 10 > 5 and 10 < 3)  # False &&, 그리고
+# print('5:', not True)  # False ! == not
+# print('6:', not True and True)  # False
+# print('7:', not True or True)  # True
+
+# 코드 정렬 : ctrl + alt + L
+
+# name = input('이름을 입력하세요 : ')  # 문자열 입력받음, scanf(), printf()
+# print("My name is", name)  # ,로 문자열 연결
+# print("My name is ", + name)  # +로 문자열 연결
+
+
+# a = input('a=')  # a=int(input('a=')) 이런 형태로 보통 사용
+# b = input('b=')
+# a = int(a)  # 문자열로 받은 것을 정수로 변환
+# b = int(b)
+# print('-' * 10)  # - 기호10회 반복
+# print(a + b)
+# print('-' * 10)
+
+# # 두 숫자를 입력받아 사칙연산하는 프로그램을 만드시오
+# # + - * /
+# a = input('a=')
+# b = input('b=')
+# a = int(a)
+# b = int(b)
+# print('-' * 10)
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+# print('-' * 10)
+#
+# a = int(input('첫 번째 숫자 : '))
+# b = int(input('두 번째 숫자 : '))
+# print('a+b=', a + b)
+# print('a-b=', a - b)
+# print('a*b=', a * b)
+# print('a/b=', a / b)
+
+
+# print('a/b=' + a / b)
+
+# def Hello():  # 함수를 만들어보자.
+#     print('Hello')
+#     print('KIM')
+#
+#
+# Hello()
+
+
+# 위에 만든 Hello() 함수 실행
+# 파이썬에는 중괄호 {}로 함수 범위를 구분하지 않는다.
+# 대신 들여쓰기(indentation)로 코드의 각 영역을 구분한다.
+
+# if __name__ == '__main__'
+#     Hello() # 위에 만든 함수 실행
+
+# 매개변수
+# def Hello(name):
+#     print('Hi', name)
+#
+#
+# def Hello1(name):
+#     print(f'Hello, {name}')
+#
+#
+# def Hello2(name, hobby):
+#     print(f'Hi, My name is {name}, My hobby is {hobby}')
+#
+#
+# Hello('KIM')
+# Hello1('KIM')
+# Hello2('KIM', 'soccer')
+# 매개변수로 넘긴 문자열 3개를 출력하는 프로그램을 만들어보시오.
